@@ -23,12 +23,18 @@ In Rails (optional)
 ```
 # auto-load in config/initializers/whatever.rb
 require 'env_inquiry'
+EnvInquiry::Env.inquire
 ```
 
 ## Usage
 
 ```
+require 'env_inquiry'
+
+EnvInquiry::Env.inquire
+
 EnvInquiry::Env.https_enabled?
+
 # feel free to shorten in your app with something like:
 Env = EnvInquiry::Env
 Env.https_enabled?
