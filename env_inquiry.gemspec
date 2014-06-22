@@ -6,7 +6,7 @@ require 'env_inquiry/version'
 Gem::Specification.new do |spec|
   spec.name          = "env_inquiry"
   spec.version       = EnvInquiry::VERSION
-  spec.authors       = ["MTL Dev", "Luke Wendling"]
+  spec.authors       = ["servicient", "lukewendling"]
   spec.email         = ["dev@mytennislessons.com"]
   spec.summary       = %q{Use dot notation to access ENV vars}
   spec.description   = %q{Use dot notation to access ENV vars. A handy companion to dotenv-* gems}
