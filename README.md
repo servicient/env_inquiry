@@ -36,8 +36,8 @@ EnvInquiry::Env.inquire
 EnvInquiry::Env.https_enabled?
 
 # feel free to shorten in your app with something like:
-Env = EnvInquiry::Env
-Env.https_enabled?
+EnvInq = EnvInquiry::Env
+EnvInq.https_enabled?
 ```
 
 ## Run Tests
